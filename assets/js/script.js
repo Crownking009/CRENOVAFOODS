@@ -690,6 +690,16 @@ jQuery(function ($) {
         callback: callbackFunction
     });
 
+    // Floating WhatsApp chat button
+    if (!$(".floating-whatsapp").length) {
+        $("body").append([
+            '<a href="https://wa.me/2349048239391" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Chat us now on WhatsApp">',
+            '<span class="floating-whatsapp-icon"><i class="icofont-brand-whatsapp"></i></span>',
+            '<span class="floating-whatsapp-text">Chat Us Now</span>',
+            "</a>"
+        ].join(""));
+    }
+
 	// Switch Btn
 	$('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
 }($));
