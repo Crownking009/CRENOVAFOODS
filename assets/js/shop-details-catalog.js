@@ -444,13 +444,87 @@ jQuery(function ($) {
     }
 
     function getRelatedProducts(products, currentProduct) {
-        var sameCategory = products.filter(function (product) {
-            return product.id !== currentProduct.id && product.category === currentProduct.category;
+        var currentCategory = normalizeComparableValue(currentProduct.category);
+        var currentTags = getComparableTags(currentProduct).filter(function (tag) {
+            return tag !== currentCategory;
         });
-        var otherCategories = products.filter(function (product) {
-            return product.id !== currentProduct.id && product.category !== currentProduct.category;
-        });
-        return sameCategory.concat(otherCategories).slice(0, 6);
+
+        return products
+            .filter(function (product) {
+                return product.id !== currentProduct.id;
+            })
+            .map(function (product) {
+                var productCategory = normalizeComparableValue(product.category);
+                var productTags = getComparableTags(product).filter(function (tag) {
+                    return tag !== productCategory;
+                });
+                var sharedTags = currentTags.filter(function (tag) {
+                    return productTags.indexOf(tag) !== -1;
+                });
+                var categoryMatch = productCategory === currentCategory;
+                var score = 0;
+
+                if (categoryMatch) {
+                    score += 100;
+                }
+
+                if (sharedTags.length) {
+                    score += sharedTags.length * 25;
+                }
+
+                if (product.featured) {
+                    score += 5;
+                }
+
+                return {
+                    product: product,
+                    score: score,
+                    categoryMatch: categoryMatch,
+                    sharedTags: sharedTags,
+                    updatedAt: String(product.updatedAt || "")
+                };
+            })
+            .filter(function (entry) {
+                return entry.score > 0;
+            })
+            .sort(function (left, right) {
+                if (right.score !== left.score) {
+                    return right.score - left.score;
+                }
+
+                if (right.sharedTags.length !== left.sharedTags.length) {
+                    return right.sharedTags.length - left.sharedTags.length;
+                }
+
+                if (right.categoryMatch !== left.categoryMatch) {
+                    return right.categoryMatch ? 1 : -1;
+                }
+
+                if (right.updatedAt !== left.updatedAt) {
+                    return right.updatedAt.localeCompare(left.updatedAt);
+                }
+
+                return left.product.name.localeCompare(right.product.name);
+            })
+            .slice(0, 6)
+            .map(function (entry) {
+                return entry.product;
+            });
+    }
+
+    function getComparableTags(product) {
+        var tags = Array.isArray(product.tags) ? product.tags : [];
+
+        return tags.map(function (tag) {
+            return normalizeComparableValue(tag);
+        }).filter(Boolean);
+    }
+
+    function normalizeComparableValue(value) {
+        return String(value || "")
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, " ")
+            .trim();
     }
 
     function buildRelatedProductMarkup(product) {
