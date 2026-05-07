@@ -1,0 +1,9 @@
+{
+  "name": "foodweb-shared-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static food website with a shared product catalog backend for admin and menu pages.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

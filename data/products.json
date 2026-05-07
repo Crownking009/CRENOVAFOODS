@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "prod-ar23mb63-mov8d8mf",
+    "name": "Pepperoni Pizza",
+    "category": "Pizza",
+    "price": 8358,
+    "comparePrice": 7.59,
+    "stock": 12,
+    "sku": "PIZZ-PEPPER",
+    "status": "active",
+    "featured": true,
+    "description": "Classic pizza with pepperoni, mozzarella and tomato sauce.",
+    "image": "assets/images/pizza-receipe-1.png",
+    "alt": "Pepperoni Pizza",
+    "tags": [
+      "pizza",
+      "pepperoni"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-61h6wa4h-mov8d8mg",
+    "name": "Beefka Pizza",
+    "category": "Pizza",
+    "price": 8358,
+    "comparePrice": 6.59,
+    "stock": 12,
+    "sku": "PIZZ-BEEFKA",
+    "status": "active",
+    "featured": false,
+    "description": "Rich beef pizza topped with onion, cheese and herbs.",
+    "image": "assets/images/pizza-receipe-2.png",
+    "alt": "Beefka Pizza",
+    "tags": [
+      "pizza",
+      "beefka"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-3fcg73l9-mov8d8mh",
+    "name": "Chicken Pizza",
+    "category": "Pizza",
+    "price": 8358,
+    "comparePrice": 7.12,
+    "stock": 12,
+    "sku": "PIZZ-CHICKE",
+    "status": "active",
+    "featured": false,
+    "description": "Grilled chicken pizza with creamy sauce and fresh basil.",
+    "image": "assets/images/pizza-receipe-3.png",
+    "alt": "Chicken Pizza",
+    "tags": [
+      "pizza",
+      "chicken"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-0ilnmmu3-mov8d8mh",
+    "name": "Pepperoni Burger",
+    "category": "Burger",
+    "price": 8358,
+    "comparePrice": 7.59,
+    "stock": 12,
+    "sku": "BURG-PEPPER",
+    "status": "active",
+    "featured": true,
+    "description": "Juicy burger with melted cheese and seasoned pepperoni.",
+    "image": "assets/images/burger-receipe-1.png",
+    "alt": "Pepperoni Burger",
+    "tags": [
+      "burger",
+      "pepperoni"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-47mfu4iu-mov8d8mh",
+    "name": "Beefka Burger",
+    "category": "Burger",
+    "price": 8358,
+    "comparePrice": 6.59,
+    "stock": 12,
+    "sku": "BURG-BEEFKA",
+    "status": "active",
+    "featured": false,
+    "description": "Grilled beef burger with melted cheese and special sauce.",
+    "image": "assets/images/burger-receipe-2.png",
+    "alt": "Beefka Burger",
+    "tags": [
+      "burger",
+      "beefka"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-cqf5qo7h-mov8d8mh",
+    "name": "Ball Burger",
+    "category": "Burger",
+    "price": 8358,
+    "comparePrice": 10.12,
+    "stock": 12,
+    "sku": "BURG-BALL-B",
+    "status": "active",
+    "featured": false,
+    "description": "Signature burger with fresh greens and zesty sauce.",
+    "image": "assets/images/burger-receipe-3.png",
+    "alt": "Ball Burger",
+    "tags": [
+      "burger",
+      "ball"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-antlnjc7-mov8d8mh",
+    "name": "Pepperoni Sandwich",
+    "category": "Sandwich",
+    "price": 8358,
+    "comparePrice": 7.59,
+    "stock": 12,
+    "sku": "SAND-PEPPER",
+    "status": "active",
+    "featured": true,
+    "description": "Warm sandwich with spicy pepperoni, gooey cheese and crisp lettuce.",
+    "image": "assets/images/sandwitch-receipe-1.png",
+    "alt": "Pepperoni Sandwich",
+    "tags": [
+      "sandwich",
+      "pepperoni"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-m60m6zzy-mov8d8mh",
+    "name": "Beefka Sandwich",
+    "category": "Sandwich",
+    "price": 8358,
+    "comparePrice": 6.59,
+    "stock": 12,
+    "sku": "SAND-BEEFKA",
+    "status": "active",
+    "featured": false,
+    "description": "Hearty sandwich with premium beef, cheese and smoky sauce.",
+    "image": "assets/images/sandwitch-receipe-2.png",
+    "alt": "Beefka Sandwich",
+    "tags": [
+      "sandwich",
+      "beefka"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-ryljzj54-mov8d8mh",
+    "name": "Chicken Sandwich",
+    "category": "Sandwich",
+    "price": 8358,
+    "comparePrice": 7.12,
+    "stock": 12,
+    "sku": "SAND-CHICKE",
+    "status": "active",
+    "featured": false,
+    "description": "Crispy chicken sandwich with sauce, lettuce and tomato.",
+    "image": "assets/images/sandwitch-receipe-3.png",
+    "alt": "Chicken Sandwich",
+    "tags": [
+      "sandwich",
+      "chicken"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-qsvikcrw-mov8d8mi",
+    "name": "Strawberry Shake",
+    "category": "Shake",
+    "price": 8358,
+    "comparePrice": 7.59,
+    "stock": 12,
+    "sku": "SHAK-STRAWB",
+    "status": "active",
+    "featured": true,
+    "description": "Fresh strawberry shake blended with creamy ice cream.",
+    "image": "assets/images/shake-receipe-1.png",
+    "alt": "Strawberry Shake",
+    "tags": [
+      "shake",
+      "strawberry"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-7008tmjb-mov8d8mi",
+    "name": "Cream Shake",
+    "category": "Shake",
+    "price": 8358,
+    "comparePrice": 6.59,
+    "stock": 12,
+    "sku": "SHAK-CREAM-",
+    "status": "active",
+    "featured": false,
+    "description": "Thick cream shake with rich vanilla and delicious toppings.",
+    "image": "assets/images/shake-receipe-2.png",
+    "alt": "Cream Shake",
+    "tags": [
+      "shake",
+      "cream"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-4m0u7urw-mov8d8mi",
+    "name": "Cherry Vanilla Shake",
+    "category": "Shake",
+    "price": 8358,
+    "comparePrice": 7.12,
+    "stock": 12,
+    "sku": "SHAK-CHERRY",
+    "status": "active",
+    "featured": false,
+    "description": "Sweet cherry vanilla shake with creamy indulgence.",
+    "image": "assets/images/shake-receipe-3.png",
+    "alt": "Cherry Vanilla Shake",
+    "tags": [
+      "shake",
+      "cherry"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-ojg6igmi-mov8d8mi",
+    "name": "Italiano Icecream",
+    "category": "Ice Cream",
+    "price": 8358,
+    "comparePrice": 7.59,
+    "stock": 12,
+    "sku": "ICE--ITALIA",
+    "status": "active",
+    "featured": true,
+    "description": "Creamy Italian gelato with a rich texture and flavor.",
+    "image": "assets/images/icecream-receipe-1.png",
+    "alt": "Italiano Icecream",
+    "tags": [
+      "ice cream",
+      "italiano"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-r7lrktd2-mov8d8mi",
+    "name": "Creamy Icecream",
+    "category": "Ice Cream",
+    "price": 8358,
+    "comparePrice": 6.59,
+    "stock": 12,
+    "sku": "ICE--CREAMY",
+    "status": "active",
+    "featured": false,
+    "description": "Silky smooth ice cream with layers of creamy sweetness.",
+    "image": "assets/images/icecream-receipe-2.png",
+    "alt": "Creamy Icecream",
+    "tags": [
+      "ice cream",
+      "creamy"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-hh4emcze-mov8d8mi",
+    "name": "Chocolate Layer",
+    "category": "Ice Cream",
+    "price": 8358,
+    "comparePrice": 7.12,
+    "stock": 12,
+    "sku": "ICE--CHOCOL",
+    "status": "active",
+    "featured": false,
+    "description": "Decadent chocolate ice cream layered with whipped cream.",
+    "image": "assets/images/icecream-receipe-3.png",
+    "alt": "Chocolate Layer",
+    "tags": [
+      "ice cream",
+      "chocolate"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-ioz9raq0-mov8d8mi",
+    "name": "Frozen Dessert",
+    "category": "Dessert",
+    "price": 8358,
+    "comparePrice": 7.59,
+    "stock": 12,
+    "sku": "DESS-FROZEN",
+    "status": "active",
+    "featured": true,
+    "description": "Refreshing frozen dessert topped with berries and chocolate.",
+    "image": "assets/images/dessert-receipe-1.png",
+    "alt": "Frozen Dessert",
+    "tags": [
+      "dessert",
+      "frozen"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-2b1tkurs-mov8d8mi",
+    "name": "Decadent Dessert",
+    "category": "Dessert",
+    "price": 8358,
+    "comparePrice": 6.59,
+    "stock": 12,
+    "sku": "DESS-DECADE",
+    "status": "active",
+    "featured": false,
+    "description": "Sweet dessert with rich layers and creamy topping.",
+    "image": "assets/images/dessert-receipe-2.png",
+    "alt": "Decadent Dessert",
+    "tags": [
+      "dessert",
+      "decadent"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-x7wue5qp-mov8d8mi",
+    "name": "Zesty Dessert",
+    "category": "Dessert",
+    "price": 8358,
+    "comparePrice": 7.12,
+    "stock": 12,
+    "sku": "DESS-ZESTY-",
+    "status": "active",
+    "featured": false,
+    "description": "Zesty dessert with citrus notes, cream and crunchy topping.",
+    "image": "assets/images/dessert-receipe-3.png",
+    "alt": "Zesty Dessert",
+    "tags": [
+      "dessert",
+      "zesty"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-u669iw7e-mov8d8mi",
+    "name": "Pounded Yam",
+    "category": "Swallows",
+    "price": 8358,
+    "comparePrice": 7.2,
+    "stock": 12,
+    "sku": "SWAL-POUNDE",
+    "status": "active",
+    "featured": true,
+    "description": "Soft swallow served to pair beautifully with rich native soups.",
+    "image": "assets/images/product-1.png",
+    "alt": "Pounded Yam",
+    "tags": [
+      "swallows",
+      "pounded"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-3pdbrync-mov8d8mi",
+    "name": "Eba Special",
+    "category": "Swallows",
+    "price": 8358,
+    "comparePrice": 6.5,
+    "stock": 12,
+    "sku": "SWAL-EBA-SP",
+    "status": "active",
+    "featured": false,
+    "description": "Smooth garri swallow with a hearty, home-style finish.",
+    "image": "assets/images/product-2.png",
+    "alt": "Eba Special",
+    "tags": [
+      "swallows",
+      "eba"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-iykw7dnc-mov8d8mk",
+    "name": "Semo Delight",
+    "category": "Swallows",
+    "price": 8358,
+    "comparePrice": 6.1,
+    "stock": 12,
+    "sku": "SWAL-SEMO-D",
+    "status": "active",
+    "featured": false,
+    "description": "Classic semo portion prepared for satisfying soup combinations.",
+    "image": "assets/images/product-3.png",
+    "alt": "Semo Delight",
+    "tags": [
+      "swallows",
+      "semo"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-pvqqzeza-mov8d8mk",
+    "name": "Egusi Soup",
+    "category": "Soups",
+    "price": 8358,
+    "comparePrice": 8.2,
+    "stock": 12,
+    "sku": "SOUP-EGUSI-",
+    "status": "active",
+    "featured": true,
+    "description": "Melon-seed soup simmered with greens and bold traditional flavor.",
+    "image": "assets/images/blog-nav-1.jpg",
+    "alt": "Egusi Soup",
+    "tags": [
+      "soups",
+      "egusi"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-ozn9r0zh-mov8d8mk",
+    "name": "Ogbono Soup",
+    "category": "Soups",
+    "price": 8358,
+    "comparePrice": 8.15,
+    "stock": 12,
+    "sku": "SOUP-OGBONO",
+    "status": "active",
+    "featured": false,
+    "description": "Silky draw soup cooked with native spices and tender cuts.",
+    "image": "assets/images/blog-nav-2.jpg",
+    "alt": "Ogbono Soup",
+    "tags": [
+      "soups",
+      "ogbono"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-pr5fe3en-mov8d8mk",
+    "name": "Vegetable Soup",
+    "category": "Soups",
+    "price": 8358,
+    "comparePrice": 7.9,
+    "stock": 12,
+    "sku": "SOUP-VEGETA",
+    "status": "active",
+    "featured": false,
+    "description": "Leafy, savory soup with a deep stock and fresh texture.",
+    "image": "assets/images/blog-nav-3.jpg",
+    "alt": "Vegetable Soup",
+    "tags": [
+      "soups",
+      "vegetable"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-eo1dj9ge-mov8d8mk",
+    "name": "Jollof Rice",
+    "category": "Rice Dishes",
+    "price": 8358,
+    "comparePrice": 7.6,
+    "stock": 12,
+    "sku": "RICE-JOLLOF",
+    "status": "active",
+    "featured": true,
+    "description": "Smoky party-style rice cooked in a rich pepper tomato base.",
+    "image": "assets/images/product-4.png",
+    "alt": "Jollof Rice",
+    "tags": [
+      "rice dishes",
+      "jollof"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-3zo9d4ht-mov8d8mk",
+    "name": "Fried Rice",
+    "category": "Rice Dishes",
+    "price": 8358,
+    "comparePrice": 7.95,
+    "stock": 12,
+    "sku": "RICE-FRIED-",
+    "status": "active",
+    "featured": false,
+    "description": "Colorful rice tossed with vegetables and savory seasoning.",
+    "image": "assets/images/product-5.png",
+    "alt": "Fried Rice",
+    "tags": [
+      "rice dishes",
+      "fried"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-8lpwkzi1-mov8d8mk",
+    "name": "Coconut Rice",
+    "category": "Rice Dishes",
+    "price": 8358,
+    "comparePrice": 8.35,
+    "stock": 12,
+    "sku": "RICE-COCONU",
+    "status": "active",
+    "featured": false,
+    "description": "Fragrant rice infused with coconut milk and gentle spices.",
+    "image": "assets/images/product-6.png",
+    "alt": "Coconut Rice",
+    "tags": [
+      "rice dishes",
+      "coconut"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-m6rnq9k6-mov8d8mk",
+    "name": "Puff Puff Basket",
+    "category": "Small Chops",
+    "price": 8358,
+    "comparePrice": 5.2,
+    "stock": 12,
+    "sku": "SMAL-PUFF-P",
+    "status": "active",
+    "featured": true,
+    "description": "Golden bite-size treats with a light, fluffy center.",
+    "image": "assets/images/combo-2-1.png",
+    "alt": "Puff Puff Basket",
+    "tags": [
+      "small chops",
+      "puff"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-owizhrng-mov8d8mk",
+    "name": "Meat Pie Pack",
+    "category": "Small Chops",
+    "price": 8358,
+    "comparePrice": 5.9,
+    "stock": 12,
+    "sku": "SMAL-MEAT-P",
+    "status": "active",
+    "featured": false,
+    "description": "Buttery pastry filled with seasoned meat and vegetables.",
+    "image": "assets/images/combo-2-2.png",
+    "alt": "Meat Pie Pack",
+    "tags": [
+      "small chops",
+      "meat"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-0bb4kfed-mov8d8ml",
+    "name": "Spring Roll Mix",
+    "category": "Small Chops",
+    "price": 8358,
+    "comparePrice": 6.25,
+    "stock": 12,
+    "sku": "SMAL-SPRING",
+    "status": "active",
+    "featured": false,
+    "description": "Crisp finger foods perfect for sharing and snacking.",
+    "image": "assets/images/combo-2-3.png",
+    "alt": "Spring Roll Mix",
+    "tags": [
+      "small chops",
+      "spring"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-83w7z9fa-mov8d8ml",
+    "name": "Grilled Chicken",
+    "category": "Proteins",
+    "price": 8358,
+    "comparePrice": 9.3,
+    "stock": 12,
+    "sku": "PROT-GRILLE",
+    "status": "active",
+    "featured": true,
+    "description": "Well-seasoned chicken grilled for smoky, juicy flavor.",
+    "image": "assets/images/burger-receipe-1.png",
+    "alt": "Grilled Chicken",
+    "tags": [
+      "proteins",
+      "grilled"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-2pan1up1-mov8d8ml",
+    "name": "Peppered Beef",
+    "category": "Proteins",
+    "price": 8358,
+    "comparePrice": 9.55,
+    "stock": 12,
+    "sku": "PROT-PEPPER",
+    "status": "active",
+    "featured": false,
+    "description": "Tender beef tossed in a spicy pepper glaze.",
+    "image": "assets/images/burger-receipe-2.png",
+    "alt": "Peppered Beef",
+    "tags": [
+      "proteins",
+      "peppered"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-mqapfqqs-mov8d8ml",
+    "name": "Fried Fish",
+    "category": "Proteins",
+    "price": 8358,
+    "comparePrice": 9.8,
+    "stock": 12,
+    "sku": "PROT-FRIED-",
+    "status": "active",
+    "featured": false,
+    "description": "Crisp fish portion served with a savory, seasoned finish.",
+    "image": "assets/images/burger-receipe-3.png",
+    "alt": "Fried Fish",
+    "tags": [
+      "proteins",
+      "fried"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-9sebi3n5-mov8d8ml",
+    "name": "Catfish Pepper Soup",
+    "category": "Pepper Soups",
+    "price": 8358,
+    "comparePrice": 9.35,
+    "stock": 12,
+    "sku": "PEPP-CATFIS",
+    "status": "active",
+    "featured": true,
+    "description": "Hot, aromatic broth with catfish and signature pepper spice.",
+    "image": "assets/images/blog-nav-4.jpg",
+    "alt": "Catfish Pepper Soup",
+    "tags": [
+      "pepper soups",
+      "catfish"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-39m5wtzh-mov8d8ml",
+    "name": "Goat Meat Pepper Soup",
+    "category": "Pepper Soups",
+    "price": 8358,
+    "comparePrice": 9.7,
+    "stock": 12,
+    "sku": "PEPP-GOAT-M",
+    "status": "active",
+    "featured": false,
+    "description": "Bold broth with tender goat meat and warming native spices.",
+    "image": "assets/images/product-7.png",
+    "alt": "Goat Meat Pepper Soup",
+    "tags": [
+      "pepper soups",
+      "goat"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-fnd4qg4b-mov8d8ml",
+    "name": "Chicken Pepper Soup",
+    "category": "Pepper Soups",
+    "price": 8358,
+    "comparePrice": 9.1,
+    "stock": 12,
+    "sku": "PEPP-CHICKE",
+    "status": "active",
+    "featured": false,
+    "description": "Comforting pepper soup with juicy chicken and fresh herbs.",
+    "image": "assets/images/blog-nav-1.jpg",
+    "alt": "Chicken Pepper Soup",
+    "tags": [
+      "pepper soups",
+      "chicken"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-ib3lf4ys-mov8d8ml",
+    "name": "Moi Moi",
+    "category": "Beans",
+    "price": 8358,
+    "comparePrice": 5.6,
+    "stock": 12,
+    "sku": "BEAN-MOI-MO",
+    "status": "active",
+    "featured": true,
+    "description": "Steamed bean pudding with a soft texture and savory taste.",
+    "image": "assets/images/product-1.png",
+    "alt": "Moi Moi",
+    "tags": [
+      "beans",
+      "moi"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-0zwknzhd-mov8d8ml",
+    "name": "Beans Porridge",
+    "category": "Beans",
+    "price": 8358,
+    "comparePrice": 6.4,
+    "stock": 12,
+    "sku": "BEAN-BEANS-",
+    "status": "active",
+    "featured": false,
+    "description": "Creamy beans cooked till rich, smooth and deeply satisfying.",
+    "image": "assets/images/product-5.png",
+    "alt": "Beans Porridge",
+    "tags": [
+      "beans",
+      "beans"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-v99ppkhy-mov8d8ml",
+    "name": "Gbegiri Bowl",
+    "category": "Beans",
+    "price": 8358,
+    "comparePrice": 6.05,
+    "stock": 12,
+    "sku": "BEAN-GBEGIR",
+    "status": "active",
+    "featured": false,
+    "description": "Smooth bean soup with a delicate, comforting flavor profile.",
+    "image": "assets/images/blog-nav-2.jpg",
+    "alt": "Gbegiri Bowl",
+    "tags": [
+      "beans",
+      "gbegiri"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-epolsiyf-mov8d8ml",
+    "name": "Yam Porridge",
+    "category": "Porridges",
+    "price": 8358,
+    "comparePrice": 7.1,
+    "stock": 12,
+    "sku": "PORR-YAM-PO",
+    "status": "active",
+    "featured": true,
+    "description": "Soft yam cubes folded into a rich pepper and palm-oil sauce.",
+    "image": "assets/images/product-2.png",
+    "alt": "Yam Porridge",
+    "tags": [
+      "porridges",
+      "yam"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-kauxqxlm-mov8d8ml",
+    "name": "Corn Porridge",
+    "category": "Porridges",
+    "price": 8358,
+    "comparePrice": 5.85,
+    "stock": 12,
+    "sku": "PORR-CORN-P",
+    "status": "active",
+    "featured": false,
+    "description": "Warm, creamy pap-style bowl finished with gentle sweetness.",
+    "image": "assets/images/product-4.png",
+    "alt": "Corn Porridge",
+    "tags": [
+      "porridges",
+      "corn"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-nulqpjbv-mov8d8ml",
+    "name": "Plantain Porridge",
+    "category": "Porridges",
+    "price": 8358,
+    "comparePrice": 6.8,
+    "stock": 12,
+    "sku": "PORR-PLANTA",
+    "status": "active",
+    "featured": false,
+    "description": "Ripe plantain simmered in a savory sauce for a hearty bowl.",
+    "image": "assets/images/combo-2-4.png",
+    "alt": "Plantain Porridge",
+    "tags": [
+      "porridges",
+      "plantain"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-pjvxxnwb-mov8d8ml",
+    "name": "Sausage Roll",
+    "category": "Snacks and Pastries",
+    "price": 8358,
+    "comparePrice": 5.45,
+    "stock": 12,
+    "sku": "SNAC-SAUSAG",
+    "status": "active",
+    "featured": true,
+    "description": "Flaky pastry wrapped around a juicy, seasoned sausage filling.",
+    "image": "assets/images/dessert-receipe-4.png",
+    "alt": "Sausage Roll",
+    "tags": [
+      "snacks and pastries",
+      "sausage"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-r734xkc4-mov8d8ml",
+    "name": "Doughnut Bites",
+    "category": "Snacks and Pastries",
+    "price": 8358,
+    "comparePrice": 5.15,
+    "stock": 12,
+    "sku": "SNAC-DOUGHN",
+    "status": "active",
+    "featured": false,
+    "description": "Soft, sweet mini doughnuts finished for quick snacking.",
+    "image": "assets/images/dessert-receipe-5.png",
+    "alt": "Doughnut Bites",
+    "tags": [
+      "snacks and pastries",
+      "doughnut"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-zjrxzp32-mov8d8mm",
+    "name": "Chicken Pie",
+    "category": "Snacks and Pastries",
+    "price": 8358,
+    "comparePrice": 6,
+    "stock": 12,
+    "sku": "SNAC-CHICKE",
+    "status": "active",
+    "featured": false,
+    "description": "Golden crust pastry filled with creamy chicken goodness.",
+    "image": "assets/images/dessert-receipe-6.png",
+    "alt": "Chicken Pie",
+    "tags": [
+      "snacks and pastries",
+      "chicken"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-1dbyy925-mov8d8mm",
+    "name": "Zobo Drink",
+    "category": "Local Beverages",
+    "price": 8358,
+    "comparePrice": 4.6,
+    "stock": 12,
+    "sku": "LOCA-ZOBO-D",
+    "status": "active",
+    "featured": true,
+    "description": "Chilled hibiscus drink with spice notes and a refreshing finish.",
+    "image": "assets/images/shake-receipe-4.png",
+    "alt": "Zobo Drink",
+    "tags": [
+      "local beverages",
+      "zobo"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-np7gmpfi-mov8d8mm",
+    "name": "Kunu Aya",
+    "category": "Local Beverages",
+    "price": 8358,
+    "comparePrice": 4.9,
+    "stock": 12,
+    "sku": "LOCA-KUNU-A",
+    "status": "active",
+    "featured": false,
+    "description": "Cool tiger nut drink blended into a creamy, smooth refreshment.",
+    "image": "assets/images/shake-receipe-5.png",
+    "alt": "Kunu Aya",
+    "tags": [
+      "local beverages",
+      "kunu"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-1ucmbk0t-mov8d8mm",
+    "name": "Palm Fruit Cooler",
+    "category": "Local Beverages",
+    "price": 8358,
+    "comparePrice": 4.75,
+    "stock": 12,
+    "sku": "LOCA-PALM-F",
+    "status": "active",
+    "featured": false,
+    "description": "Refreshing local-style cooler with a vibrant fruity taste.",
+    "image": "assets/images/shake-receipe-6.png",
+    "alt": "Palm Fruit Cooler",
+    "tags": [
+      "local beverages",
+      "palm"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-dlc2tvas-mov8d8mm",
+    "name": "Fried Plantain",
+    "category": "Sides and Extra",
+    "price": 8358,
+    "comparePrice": 4.4,
+    "stock": 12,
+    "sku": "SIDE-FRIED-",
+    "status": "active",
+    "featured": true,
+    "description": "Sweet golden plantain slices, crisp-edged and tender inside.",
+    "image": "assets/images/product-6.png",
+    "alt": "Fried Plantain",
+    "tags": [
+      "sides and extra",
+      "fried"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-exz1z74v-mov8d8mm",
+    "name": "Coleslaw Cup",
+    "category": "Sides and Extra",
+    "price": 8358,
+    "comparePrice": 4.05,
+    "stock": 12,
+    "sku": "SIDE-COLESL",
+    "status": "active",
+    "featured": false,
+    "description": "Creamy slaw side for adding crunch and freshness to any meal.",
+    "image": "assets/images/special-food.png",
+    "alt": "Coleslaw Cup",
+    "tags": [
+      "sides and extra",
+      "coleslaw"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  },
+  {
+    "id": "prod-act87a5q-mov8d8mm",
+    "name": "Extra Sauce",
+    "category": "Sides and Extra",
+    "price": 8358,
+    "comparePrice": 3.5,
+    "stock": 12,
+    "sku": "SIDE-EXTRA-",
+    "status": "active",
+    "featured": false,
+    "description": "Flavor-packed extra sauce to complete rice, proteins or snacks.",
+    "image": "assets/images/product-7.png",
+    "alt": "Extra Sauce",
+    "tags": [
+      "sides and extra",
+      "extra"
+    ],
+    "createdAt": "2026-05-07T08:34:52.259Z",
+    "updatedAt": "2026-05-07T08:34:52.259Z"
+  }
+]

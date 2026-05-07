@@ -221,12 +221,6 @@
         state.products = (await fetchProductsFromApi()).map(function (product) {
             return normalizeProduct(product);
         });
-
-        if (!state.products.length) {
-            state.products = getStarterProducts();
-            await persistProducts();
-            addActivity("Starter catalog loaded.");
-        }
     }
 
     function getStarterProducts() {
@@ -434,7 +428,7 @@
                 formData.updatedAt = formData.createdAt;
                 state.products.unshift(formData);
                 await persistProducts();
-                addActivity('Added "' + formData.name + '".', "success");
+                addActivity('Added "' + formData.name + '".');
                 showToast('Added "' + formData.name + '".', "success");
             }
 
