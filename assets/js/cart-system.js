@@ -436,7 +436,7 @@ jQuery(function ($) {
         } else if (state.orderType === "delivery" && !isDeliveryComplete()) {
             setCartPageStatus("Enter delivery address, phone number, and location before checkout.", true);
         } else if (state.orderType === "delivery") {
-            setCartPageStatus("Delivery fee of ₦3,000 has been added to your order.");
+            setCartPageStatus("Delivery fee of £3,000 has been added to your order.");
         } else {
             setCartPageStatus("Your cart is ready for checkout.");
         }
@@ -633,16 +633,16 @@ jQuery(function ($) {
         } else if (state.orderType === "delivery" && !isDeliveryComplete()) {
             setCartPageStatus("Enter delivery address, phone number, and location before checkout.", true);
         } else if (state.orderType === "delivery") {
-            setCartPageStatus("Delivery fee of ₦3,000 has been added to your order.");
+            setCartPageStatus("Delivery fee of £3,000 has been added to your order.");
         } else {
             setCartPageStatus("Your cart is ready for checkout.");
         }
     }
 
     function formatCurrency(value) {
-        return new Intl.NumberFormat("en-NG", {
+        return new Intl.NumberFormat("en-GB", {
             style: "currency",
-            currency: "NGN",
+            currency: "GBP",
             minimumFractionDigits: 2,
             maximumFractionDigits: 2
         }).format(safeNumber(value));
